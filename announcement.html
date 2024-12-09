@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Finexo </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Finexo
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Ana Sayfa<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Hakkımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Hizmetler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="why.html">Neden Finexo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Ekip</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Giriş</a>
+              </li>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <div class="announcement-form">
+      <h2 style="color: white">Duyuru Ekle</h2>
+      <form id="announcementForm">
+        <label for="announcementTitle" style="color: white">Duyuru Başlığı</label>
+        <input type="text" id="announcementTitle" placeholder="Duyuru Başlığı" required>
+
+        <label for="announcementContent" style="color: white">Duyuru İçeriği</label>
+        <textarea id="announcementContent" placeholder="Duyuru İçeriği" required></textarea>
+
+        <label for="announcementDate" style="color: white">Tarih</label>
+        <input type="date" id="announcementDate" required>
+
+        <button type="submit">Duyuru Ekle</button>
+      </form>
+    </div>
+
+    <div class="announcement-detail-container">
+
+      <div class="announcement-list">
+        <h2>Duyurular</h2>
+
+        <!-- Duyuru 1 -->
+        <div class="announcement-item" data-date="2024-12-07">
+          <h3><a href="#announcement-1">Kripto Para Yatırımlarınız İçin Yeni Fırsatlar!</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 07 Aralık 2024</span>
+        </div>
+
+        <!-- Duyuru 2 -->
+        <div class="announcement-item" data-date="2024-12-05">
+          <h3><a href="#announcement-2">Yeni Kripto Para Birimleri Listelendi!</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 05 Aralık 2024</span>
+        </div>
+
+        <!-- Duyuru 3 -->
+        <div class="announcement-item" data-date="2024-11-30">
+          <h3><a href="#announcement-3">Bitcoin Fiyatında Büyük Artış!</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 30 Kasım 2024</span>
+        </div>
+
+        <!-- Duyuru 4 -->
+        <div class="announcement-item" data-date="2024-11-28">
+          <h3><a href="#announcement-4">Kripto Para Piyasasında Yenilikler!</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 28 Kasım 2024</span>
+        </div>
+
+        <!-- Duyuru 5 -->
+        <div class="announcement-item" data-date="2024-11-20">
+          <h3><a href="#announcement-5">Yeni Yatırımcılar İçin Eğitim Semineri</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 20 Kasım 2024</span>
+        </div>
+
+        <!-- Duyuru 6 -->
+        <div class="announcement-item" data-date="2024-11-16">
+          <h3><a href="#announcement-6">Kripto Para Borsası Güncellemeleri</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 16 Kasım 2024</span>
+        </div>
+
+        <!-- Duyuru 7 -->
+        <div class="announcement-item" data-date="2024-11-04">
+          <h3><a href="#announcement-7">Kripto Para Güvenliği İpuçları</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 4 Kasım 2024</span>
+        </div>
+
+        <!-- Duyuru 8 -->
+        <div class="announcement-item" data-date="2024-10-26">
+          <h3><a href="#announcement-8">Yeni Kripto Cüzdanı Lansmanı</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 26 Ekim 2024</span>
+        </div>
+
+        <!-- Duyuru 9 -->
+        <div class="announcement-item" data-date="2024-10-17">
+          <h3><a href="#announcement-9">Blockchain Teknolojisindeki Son Gelişmeler</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 17 Ekim 2024</span>
+        </div>
+
+        <!-- Duyuru 10 -->
+        <div class="announcement-item" data-date="2024-10-06">
+          <h3><a href="#announcement-10">Kripto Para Cüzdanınızda Güvenliği Artırın!</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 6 Ekim 2024</span>
+        </div>
+
+        <!-- Duyuru 11 -->
+        <div class="announcement-item" data-date="2024-10-01">
+          <h3><a href="#announcement-11">Yatırımcılar İçin Kripto Portföyü Yönetimi</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 1 Ekim 2024</span>
+        </div>
+
+        <!-- Duyuru 12 -->
+        <div class="announcement-item" data-date="202-09-27">
+          <h3><a href="#announcement-12">Ethereum 2.0 Güncellemesi Hakkında Her Şey</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 27 Eylül 2024</span>
+        </div>
+
+        <!-- Duyuru 13 -->
+        <div class="announcement-item" data-date="2024-09-11">
+          <h3><a href="#announcement-13">Yatırımcılar İçin Kripto Eğitim Seminerleri</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 11 Eylül 2024</span>
+        </div>
+
+        <!-- Duyuru 14 -->
+        <div class="announcement-item" data-date="2024-09-08">
+          <h3><a href="#announcement-14">Yeni NFT Projeleri ve Kripto Yatırım Fırsatları</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 8 Eylül 2024</span>
+        </div>
+
+        <!-- Duyuru 15 -->
+        <div class="announcement-item" data-date="2024-08-30">
+          <h3><a href="#announcement-15">Bitcoin'in Geleceği ve Yatırımcılar İçin Tahminler</a></h3>
+          <p>Duyuru içeriği kısa bir şekilde burada yer alacak...</p>
+          <span class="announcement-date">Tarih: 30 Ağustos 2024</span>
+        </div>
+
+        <a href="/all-announcements" class="view-all-btn">Daha Fazla</a>
+      </div>
+
+      <!-- Duyuru Detayları (Açıklamalar) -->
+      <div id="announcement-1" class="announcement-detail">
+        <h3>Kripto Para Yatırımlarınız İçin Yeni Fırsatlar!</h3>
+        <p>Kripto para piyasasında yeni yatırım fırsatları ortaya çıkıyor! Bitcoin ve Ethereum'un yanı sıra yeni
+          token'larla yatırım yapabilirsiniz. Detaylı bilgi için hemen tıklayın!</p>
+        <a href="#">PDF İndir</a>
+        <a href="#">Word Belgesi İndir</a>
+      </div>
+
+      <div id="announcement-2" class="announcement-detail">
+        <h3>Yeni Kripto Para Birimleri Listelendi!</h3>
+        <p>Sonunda çok beklenen kripto para birimleri listelendi. Bu yeni coin'lere yatırım yaparak piyasa fırsatlarını
+          değerlendirebilirsiniz. Ayrıntılar için tıklayın!</p>
+        <a href="#">PDF İndir</a>
+        <a href="#">Word Belgesi İndir</a>
+      </div>
+    </div>
+</body>
+
+</html>
